@@ -1,0 +1,7 @@
+%h2 Drink the first time...
+%form
+  .checkbox{"ng-repeat" => "checkname in checklist.list"}
+    %label
+      %input{type: "checkbox", "ng-model" => "checklist.checked[checkname]", "ng-change" => "checklist.onCheckChange(checkname)"}
+      {{ checkname }}
+    %br

@@ -1,0 +1,31 @@
+!!! 5
+
+-# Change these version strings to update libraries
+- JQUERY_VERSION    = "2.1.4"
+- ANGULAR_VERSION   = "1.3.15"
+- BOOTSTRAP_VERSION = "3.3.4"
+
+%html(ng-app="drinkingGame")
+  %head
+    %meta(charset="utf-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    %title Republican Drinking Game
+
+    -# External Libraries
+    %link{rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/bootstrap/#{BOOTSTRAP_VERSION}/css/bootstrap.min.css"}
+
+    %script{src: "https://code.jquery.com/jquery-#{JQUERY_VERSION}.min.js"}
+    %script{src: "https://ajax.googleapis.com/ajax/libs/angularjs/#{ANGULAR_VERSION}/angular.min.js"}
+
+    -# Our own JS and CSS
+    - Dir.glob("./js/*.js").each do |js|
+      %script{src: "js/" + File.basename(js)}
+
+    - Dir.glob("./css/*.css").each do |css|
+      %link{rel: "stylesheet", href: "css/" + File.basename(css)}
+
+  %body
+    .container
+      %h1 Republican Debate Drinking Game
+      %counter
+      %checklist
