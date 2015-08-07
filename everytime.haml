@@ -4,3 +4,17 @@
   {{ everytime.count[action] || 0}}
   %button.btn.btn-success(ng-click="increment(action)") +
   {{ action }}
+
+%h2 Drink everytime you hear...
+.phrase(ng-repeat="phrase in everytime.phrases")
+  %button.btn.btn-danger(ng-click="decrement(phrase)") -
+  {{ everytime.count[phrase] || 0}}
+  %button.btn.btn-success(ng-click="increment(phrase)") +
+  {{ phrase }}
+
+%h2 Shots when you hear...
+.shot(ng-repeat="shot in everytime.shots")
+  %button.btn.btn-danger(ng-click="shotDec(shot)") -
+  {{ everytime.count[shot] || 0}}
+  %button.btn.btn-success(ng-click="shotInc(shot)") +
+  {{ shot }}

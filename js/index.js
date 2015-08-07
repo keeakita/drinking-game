@@ -85,6 +85,22 @@
                     'Awkwardly shouts out to LeBron'
                 ];
 
+                everytime.phrases = [
+                    'I\'m not a scientist',
+                    'You can keep your doctor',
+                    'ACORN',
+                    'The war on Christians (or Christmas, if that\'s your fancy)',
+                    'Thug',
+                    'Right here in Ohio',
+                    'Culture of dependency'
+                ];
+
+                everytime.shots = [
+                    'Kenya',
+                    'All Lives Matter',
+                    'Binders full of women'
+                ];
+
                 // maps action string to integer count
                 everytime.count = {};
 
@@ -93,16 +109,36 @@
                     everytime.count[action] = 0;
                 });
 
-                $scope.decrement = function(action) {
-                    if (everytime.count[action] > 0) {
-                        everytime.count[action]--;
+                everytime.phrases.forEach(function(phrase) {
+                    everytime.count[phrase] = 0;
+                });
+
+                everytime.shots.forEach(function(shot) {
+                    everytime.count[shot] = 0;
+                });
+
+                $scope.decrement = function(what) {
+                    if (everytime.count[what] > 0) {
+                        everytime.count[what]--;
                         $scope.$emit('drinkup', 'drinks', -1);
                     }
                 }
 
-                $scope.increment = function(action) {
-                    everytime.count[action]++;
+                $scope.increment = function(what) {
+                    everytime.count[what]++;
                     $scope.$emit('drinkup', 'drinks', 1);
+                }
+
+                $scope.shotDec = function(action) {
+                    if (everytime.count[action] > 0) {
+                        everytime.count[action]--;
+                        $scope.$emit('drinkup', 'shots', -1);
+                    }
+                }
+
+                $scope.shotInc = function(action) {
+                    everytime.count[action]++;
+                    $scope.$emit('drinkup', 'shots', 1);
                 }
             }]
         };
