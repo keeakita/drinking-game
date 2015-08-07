@@ -1,0 +1,6 @@
+%h2 Drink everytime a candidate...
+.action(ng-repeat="action in everytime.actions")
+  %button.btn.btn-danger(ng-click="decrement(action)") -
+  {{ everytime.count[action] || 0}}
+  %button.btn.btn-success(ng-click="increment(action)") +
+  {{ action }}

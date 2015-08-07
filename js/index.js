@@ -70,4 +70,41 @@
             }]
         };
     }]);
+
+    app.directive('everytime', ['$compile', function($compile) {
+        return {
+            restrict: 'E',
+            templateUrl: '/everytime.html',
+            controllerAs: 'everytime',
+            controller: ['$scope', function($scope) {
+                var everytime = this;
+
+                everytime.actions = [
+                    'Claims a positive relationship with a minority, including "Some of my best friends are..."',
+                    'Tries to habla Español',
+                    'Awkwardly shouts out to LeBron'
+                ];
+
+                // maps action string to integer count
+                everytime.count = {};
+
+                // init
+                everytime.actions.forEach(function(action) {
+                    everytime.count[action] = 0;
+                });
+
+                $scope.decrement = function(action) {
+                    if (everytime.count[action] > 0) {
+                        everytime.count[action]--;
+                        $scope.$emit('drinkup', 'drinks', -1);
+                    }
+                }
+
+                $scope.increment = function(action) {
+                    everytime.count[action]++;
+                    $scope.$emit('drinkup', 'drinks', 1);
+                }
+            }]
+        };
+    }]);
 })();
