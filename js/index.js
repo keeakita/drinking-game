@@ -23,7 +23,6 @@
                     'A candidate talks about "stopping Hillary Clinton."',
                     'Anyone warns the U.S. is becoming Greece.',
                     'Trump refers to himself in the third person.',
-                    'Anyone invokes St. Ronald Reagan.',
                     'Anyone proposes invading Russia',
                     'Anyone proposes invading Iran',
                     'Anyone proposes invading Syria',
@@ -85,14 +84,15 @@
                     'Claims a positive relationship with a minority, including "Some of my best friends are..."',
                     'Tries to habla Español',
                     'Awkwardly mentions wildfires'.
+                    'Invokes St. Ronald Reagan.',
                     'Advocates the use of nuclear weapons'
                 ];
 
                 everytime.phrases = [
                     'I\'m not a scientist',
-                    'You can keep your doctor',
+                    'Repealing Obamacare',
                     'The war on Christians (or Christmas, if that\'s your fancy)',
-                    'Thug',
+                    'Thugs and gangsters, but not terrorists',
                     'Right here in <insert state of debate>',
                     'A candidate replies with "Wrong"',
                     'Culture of dependency'
