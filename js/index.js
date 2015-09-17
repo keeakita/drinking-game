@@ -82,7 +82,7 @@
                 everytime.actions = [
                     'Claims a positive relationship with a minority, including "Some of my best friends are..."',
                     'Tries to habla Español',
-                    'Awkwardly shouts out to LeBron'
+                    'Awkwardly mentions wildfires'
                 ];
 
                 everytime.phrases = [
@@ -91,7 +91,7 @@
                     'ACORN',
                     'The war on Christians (or Christmas, if that\'s your fancy)',
                     'Thug',
-                    'Right here in Ohio',
+                    'Right here in California',
                     'Culture of dependency'
                 ];
 
