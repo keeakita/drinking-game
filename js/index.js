@@ -13,7 +13,6 @@
 
                 checklist.list = [
                     'Donald Trump mentions his wealth or smarts',
-                    'Benghazi is mentioned',
                     '"This president..." is uttered',
                     'A candidate whines about not getting called on enough',
                     '"take America back"',
@@ -24,7 +23,10 @@
                     'A candidate talks about "stopping Hillary Clinton."',
                     'Anyone warns the U.S. is becoming Greece.',
                     'Trump refers to himself in the third person.',
-                    'Anyone invokes St. Ronald Reagan.'
+                    'Anyone invokes St. Ronald Reagan.',
+                    'Anyone proposes invading Russia',
+                    'Anyone proposes invading Iran',
+                    'Anyone proposes invading Syria',
                 ];
 
                 // Maps string to boolean value
@@ -88,17 +90,18 @@
                 everytime.phrases = [
                     'I\'m not a scientist',
                     'You can keep your doctor',
-                    'ACORN',
                     'The war on Christians (or Christmas, if that\'s your fancy)',
                     'Thug',
                     'Right here in California',
+                    'A candidate replies with "Wrong"',
                     'Culture of dependency'
                 ];
 
                 everytime.shots = [
                     'Kenya',
                     'All Lives Matter',
-                    'Binders full of women'
+                    'Binders full of women',
+                    'Benghazi'
                 ];
 
                 // maps action string to integer count
