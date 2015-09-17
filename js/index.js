@@ -103,7 +103,8 @@
                     'Kenya',
                     'All Lives Matter',
                     'Binders full of women',
-                    'Benghazi'
+                    '"Obama doesn\'t have" followed by anything',
+                    'Hillary Clinton\'s emails'
                 ];
 
                 // maps action string to integer count
