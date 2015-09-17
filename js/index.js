@@ -95,7 +95,8 @@
                     'Thugs and gangsters, but not terrorists',
                     'Right here in <insert state of debate>',
                     'A candidate replies with "Wrong"',
-                    'Culture of dependency'
+                    'Culture of dependency',
+                    '"Gateway drug"'
                 ];
 
                 everytime.shots = [
