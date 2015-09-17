@@ -84,7 +84,8 @@
                 everytime.actions = [
                     'Claims a positive relationship with a minority, including "Some of my best friends are..."',
                     'Tries to habla Español',
-                    'Awkwardly mentions wildfires'
+                    'Awkwardly mentions wildfires'.
+                    'Advocates the use of nuclear weapons'
                 ];
 
                 everytime.phrases = [
@@ -92,7 +93,7 @@
                     'You can keep your doctor',
                     'The war on Christians (or Christmas, if that\'s your fancy)',
                     'Thug',
-                    'Right here in California',
+                    'Right here in <insert state of debate>',
                     'A candidate replies with "Wrong"',
                     'Culture of dependency'
                 ];
