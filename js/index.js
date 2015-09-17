@@ -92,7 +92,8 @@
                     'The war on Christians (or Christmas, if that\'s your fancy)',
                     'Thug',
                     'Right here in California',
-                    'Culture of dependency'
+                    'Culture of dependency',
+                    'Liberal media'
                 ];
 
                 everytime.shots = [
