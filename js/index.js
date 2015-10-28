@@ -24,7 +24,10 @@
                     'A candidate talks about "stopping Hillary Clinton."',
                     'Anyone warns the U.S. is becoming Greece.',
                     'Trump refers to himself in the third person.',
-                    'Anyone invokes St. Ronald Reagan.'
+                    'Anyone invokes St. Ronald Reagan.',
+                    'Anyone proposes invading Russia',
+                    'Anyone proposes invading Iran',
+                    'Anyone proposes invading Syria'
                 ];
 
                 // Maps string to boolean value
@@ -82,24 +85,30 @@
                 everytime.actions = [
                     'Claims a positive relationship with a minority, including "Some of my best friends are..."',
                     'Tries to habla Español',
-                    'Awkwardly mentions wildfires'
+                    'Awkwardly mentions wildfires',
+                    'Invokes St. Ronald Reagan.',
+                    'Advocates the use of nuclear weapons'
                 ];
 
                 everytime.phrases = [
                     'I\'m not a scientist',
+                    'Repealing Obamacare',
                     'You can keep your doctor',
                     'ACORN',
                     'The war on Christians (or Christmas, if that\'s your fancy)',
-                    'Thug',
-                    'Right here in California',
+                    'Thugs and gangsters, but not terrorists',
+                    'Right here in <insert state of debate>',
+                    'A candidate replies with "Wrong"',
                     'Culture of dependency',
-                    'Liberal media'
+                    '"Gateway drug"'
                 ];
 
                 everytime.shots = [
                     'Kenya',
                     'All Lives Matter',
-                    'Binders full of women'
+                    'Binders full of women',
+                    '"Obama doesn\'t have" followed by anything',
+                    'Hillary Clinton\'s emails'
                 ];
 
                 // maps action string to integer count
