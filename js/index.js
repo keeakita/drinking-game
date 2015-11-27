@@ -15,17 +15,14 @@
                     'Donald Trump mentions his wealth or smarts',
                     '"This president..." is uttered',
                     'A candidate whines about not getting called on enough',
-                    '"take America back"',
-                    'Trump interrupts someone with "Excuse me, let me answer that..."',
+                    '"Make America Great Again"',
                     'Hitler, Nazis, Neville Chamberlain or related imagery, including ovens and the Holocaust',
-                    'The crowd cheers a racist or bigoted statement by a candidate',
                     'A candidate mentions his poor/hardscrabble upbringing, or a parent who "worked every day of his life."',
                     'A candidate talks about "stopping Hillary Clinton."',
-                    'Anyone warns the U.S. is becoming Greece.',
-                    'Trump refers to himself in the third person.',
                     'Anyone proposes invading Russia',
                     'Anyone proposes invading Iran',
                     'Anyone proposes invading Syria',
+                    'Rand Paul disagrees',
                 ];
 
                 // Maps string to boolean value
@@ -83,20 +80,20 @@
                 everytime.actions = [
                     'Claims a positive relationship with a minority, including "Some of my best friends are..."',
                     'Tries to habla Español',
-                    'Awkwardly mentions wildfires'.
                     'Invokes St. Ronald Reagan.',
                     'Advocates the use of nuclear weapons'
+                    'Says something racist or bigoted, and the crowd cheers',
+                    '
                 ];
 
                 everytime.phrases = [
                     'I\'m not a scientist',
                     'Repealing Obamacare',
                     'The war on Christians (or Christmas, if that\'s your fancy)',
-                    'Thugs and gangsters, but not terrorists',
                     'Right here in <insert state of debate>',
                     'A candidate replies with "Wrong"',
                     'Culture of dependency',
-                    '"Gateway drug"'
+                    '"Gateway drug"',
                 ];
 
                 everytime.shots = [
@@ -104,7 +101,7 @@
                     'All Lives Matter',
                     'Binders full of women',
                     '"Obama doesn\'t have" followed by anything',
-                    'Hillary Clinton\'s emails'
+                    'Hillary Clinton\'s emails',
                 ];
 
                 // maps action string to integer count
