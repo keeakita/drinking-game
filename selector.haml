@@ -1,0 +1,8 @@
+.selector
+  %p Select a game below:
+  %select(ng-model="selector.selectedGame" ng-change="selector.onChange()")
+    %option(ng-repeat="game in selector.games" value="{{game.id}}") {{game.title}}
+  %div(ng-show="selector.selectedGame")
+    %counter
+    %checklist
+    %everytime

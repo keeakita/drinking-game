@@ -3,6 +3,35 @@
 
     var app = angular.module('drinkingGame', []);
 
+    app.directive('selector', function() {
+        return {
+            restrict: 'E',
+            templateUrl: '/selector.html',
+            controllerAs: 'selector',
+            controller: ['$http', '$scope', function($http, $scope) {
+                var selector = this;
+
+                // Loads game JSON into the scope
+                selector.onChange = function() {
+                    if (undefined !== selector.selectedGame && "" !== selector.selectedGame) {
+                        $http.get('/data/games/' + selector.selectedGame + '.json').success(function(data) {
+                            $scope.gameData = data;
+                        }).error(function(data, status) {
+                            alert('Could not load the game data: ' + status);
+                        });
+                    }
+                };
+
+                // Set the availible options
+                $http.get('/data/choices.json').success(function(data) {
+                    selector.games = data;
+                }).error(function(data, status) {
+                    alert('Could not load the game list: ' + status);
+                });
+            }]
+        };
+    });
+
     app.directive('checklist', ['$compile', function($compile) {
         return {
             restrict: 'E',
@@ -11,24 +40,14 @@
             controller: ['$scope', function($scope) {
                 var checklist = this;
 
-                checklist.list = [
-                    'Donald Trump mentions his wealth or smarts',
-                    'Benghazi is mentioned',
-                    '"This president..." is uttered',
-                    'A candidate whines about not getting called on enough',
-                    '"take America back"',
-                    'Trump interrupts someone with "Excuse me, let me answer that..."',
-                    'Hitler, Nazis, Neville Chamberlain or related imagery, including ovens and the Holocaust',
-                    'The crowd cheers a racist or bigoted statement by a candidate',
-                    'A candidate mentions his poor/hardscrabble upbringing, or a parent who "worked every day of his life."',
-                    'A candidate talks about "stopping Hillary Clinton."',
-                    'Anyone warns the U.S. is becoming Greece.',
-                    'Trump refers to himself in the third person.',
-                    'Anyone invokes St. Ronald Reagan.',
-                    'Anyone proposes invading Russia',
-                    'Anyone proposes invading Iran',
-                    'Anyone proposes invading Syria'
-                ];
+                // Initial values
+                checklist.list = [];
+
+                $scope.$watch('gameData', function() {
+                    if ($scope.gameData !== undefined) {
+                        checklist.list = $scope.gameData.checklist;
+                    }
+                });
 
                 // Maps string to boolean value
                 checklist.checked = {};
@@ -82,74 +101,59 @@
             controller: ['$scope', function($scope) {
                 var everytime = this;
 
-                everytime.actions = [
-                    'Claims a positive relationship with a minority, including "Some of my best friends are..."',
-                    'Tries to habla Español',
-                    'Awkwardly mentions wildfires',
-                    'Invokes St. Ronald Reagan.',
-                    'Advocates the use of nuclear weapons'
-                ];
+                // Initial values
+                everytime.actions = [];
+                everytime.phrases = [];
+                everytime.shots   = [];
 
-                everytime.phrases = [
-                    'I\'m not a scientist',
-                    'Repealing Obamacare',
-                    'You can keep your doctor',
-                    'ACORN',
-                    'The war on Christians (or Christmas, if that\'s your fancy)',
-                    'Thugs and gangsters, but not terrorists',
-                    'Right here in <insert state of debate>',
-                    'A candidate replies with "Wrong"',
-                    'Culture of dependency',
-                    '"Gateway drug"'
-                ];
+                $scope.$watch('gameData', function() {
+                    // When a new game is selected
+                    if ($scope.gameData !== undefined) {
+                        everytime.actions = $scope.gameData.everytime.actions;
+                        everytime.phrases = $scope.gameData.everytime.phrases;
+                        everytime.shots = $scope.gameData.everytime.shots;
 
-                everytime.shots = [
-                    'Kenya',
-                    'All Lives Matter',
-                    'Binders full of women',
-                    '"Obama doesn\'t have" followed by anything',
-                    'Hillary Clinton\'s emails'
-                ];
+                        // Clear the values
+                        everytime.actions.forEach(function(action) {
+                            everytime.count[action] = 0;
+                        });
+
+                        everytime.phrases.forEach(function(phrase) {
+                            everytime.count[phrase] = 0;
+                        });
+
+                        everytime.shots.forEach(function(shot) {
+                            everytime.count[shot] = 0;
+                        });
+
+                    }
+                });
 
                 // maps action string to integer count
                 everytime.count = {};
-
-                // init
-                everytime.actions.forEach(function(action) {
-                    everytime.count[action] = 0;
-                });
-
-                everytime.phrases.forEach(function(phrase) {
-                    everytime.count[phrase] = 0;
-                });
-
-                everytime.shots.forEach(function(shot) {
-                    everytime.count[shot] = 0;
-                });
-
                 $scope.decrement = function(what) {
                     if (everytime.count[what] > 0) {
                         everytime.count[what]--;
                         $scope.$emit('drinkup', 'drinks', -1);
                     }
-                }
+                };
 
                 $scope.increment = function(what) {
                     everytime.count[what]++;
                     $scope.$emit('drinkup', 'drinks', 1);
-                }
+                };
 
                 $scope.shotDec = function(action) {
                     if (everytime.count[action] > 0) {
                         everytime.count[action]--;
                         $scope.$emit('drinkup', 'shots', -1);
                     }
-                }
+                };
 
                 $scope.shotInc = function(action) {
                     everytime.count[action]++;
                     $scope.$emit('drinkup', 'shots', 1);
-                }
+                };
             }]
         };
     }]);

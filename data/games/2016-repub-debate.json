@@ -1,0 +1,41 @@
+{
+    "id": "2016-repub-debate",
+    "title": "2016 Republican Debate",
+    "checklist": [
+        "Donald Trump mentions his wealth or smarts",
+        "Benghazi is mentioned",
+        "\"This president...\" is uttered",
+        "A candidate whines about not getting called on enough",
+        "\"take America back\"",
+        "Trump interrupts someone with \"Excuse me, let me answer that...\"",
+        "Hitler, Nazis, Neville Chamberlain or related imagery, including ovens and the Holocaust",
+        "The crowd cheers a racist or bigoted statement by a candidate",
+        "A candidate mentions his poor/hardscrabble upbringing, or a parent who \"worked every day of his life.\"",
+        "A candidate talks about \"stopping Hillary Clinton.\"",
+        "Anyone warns the U.S. is becoming Greece.",
+        "Trump refers to himself in the third person.",
+        "Anyone invokes St. Ronald Reagan."
+    ],
+    "everytime": {
+        "actions": [
+            "Claims a positive relationship with a minority, including \"Some of my best friends are...\"",
+            "Tries to habla Español",
+            "Awkwardly mentions wildfires"
+        ],
+        "phrases": [
+            "I'm not a scientist",
+            "You can keep your doctor",
+            "ACORN",
+            "The war on Christians (or Christmas, if that's your fancy)",
+            "Thug",
+            "Right here in California",
+            "Culture of dependency",
+            "Liberal media"
+        ],
+        "shots": [
+            "Kenya",
+            "All Lives Matter",
+            "Binders full of women"
+        ]
+    }
+}
