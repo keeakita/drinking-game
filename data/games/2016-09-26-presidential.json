@@ -4,7 +4,7 @@
     "checklist": [
         "\"Make America Great Again\"",
         "No third parties are present",
-        "The network tries to shoe-in social media"
+        "The network tries to shoe-in social media",
         "\"Love trumps hate\"",
         "The candidates' suits' colors clash"
     ],
@@ -14,20 +14,21 @@
             "Advocates the use of nuclear weapons",
             "Advocates invading another county",
             "Complains about biased media",
-            "Argues over the legitimacy of a statistic"
+            "Argues over the legitimacy of a statistic",
             "Mentions Donald Trump's tax returns",
             "Mentions Hillary Clinton's emails",
-            "A candidate fact-checks their opponent, using correct facts",
+            "Fact-checks their opponent, using correct facts",
             "Skittles are mentioned (Optional: eat a Skittle instead of drinking)",
-            "Trump-branded merchandise is metioned",
-            "Bernie Sanders supporters are mentioned as such",
-            "A candidate says something in a language other than English"
+            "Mentions Trump-branded merchandise",
+            "Metions Bernie Sanders supporters as such",
+            "Says something in a language other than English",
+            "Mentions an Internet meme (mention, not uses)"
         ],
         "phrases": [
             "\"The war on Christians\"",
             "\"Right here in New York\" (Debate occurs at Hofstra University, Hempstead, NY)",
-            "A candidate replies with \"Wrong\""
-            "Basket of deplorables",
+            "A candidate reply with \"Wrong\"",
+            "Basket of deplorables"
         ],
         "shots": [
             "\"$GROUP Lives Matter\"",
