@@ -1,3 +1,6 @@
 *.html
 *.swp
 data/choices.json
+_site
+vendor/
+.bundle
