@@ -45,6 +45,8 @@
 
                 $scope.$watch('gameData', function() {
                     if ($scope.gameData !== undefined) {
+                        // Reset values
+                        checklist.checked = {};
                         checklist.list = $scope.gameData.checklist;
                     }
                 });
@@ -74,17 +76,26 @@
         };
     }]);
 
-
     app.directive('counter', ['$compile', function($compile) {
         return {
             restrict: 'E',
             templateUrl: '/counter.html',
             controllerAs: 'counter',
-            controller: ['$rootScope', function($rootScope) {
+            controller: ['$rootScope', '$scope', function($rootScope, $scope) {
                 var counter = this;
 
                 counter.drinks = 0;
                 counter.shots = 0;
+
+                $scope.$watch('gameData', function() {
+                    // When a new game is selected
+                    if ($scope.gameData !== undefined) {
+                        // Reset the drink counts
+                        $scope.$emit('reset');
+                        counter.drinks = 0;
+                        counter.shots = 0;
+                    }
+                });
 
                 $rootScope.$on('drinkup', function(event, cname, change) {
                     counter[cname] += change;
@@ -109,23 +120,13 @@
                 $scope.$watch('gameData', function() {
                     // When a new game is selected
                     if ($scope.gameData !== undefined) {
+                        // Clear the values
+                        everytime.count = {};
+
+                        // Set up new elements
                         everytime.actions = $scope.gameData.everytime.actions;
                         everytime.phrases = $scope.gameData.everytime.phrases;
                         everytime.shots = $scope.gameData.everytime.shots;
-
-                        // Clear the values
-                        everytime.actions.forEach(function(action) {
-                            everytime.count[action] = 0;
-                        });
-
-                        everytime.phrases.forEach(function(phrase) {
-                            everytime.count[phrase] = 0;
-                        });
-
-                        everytime.shots.forEach(function(shot) {
-                            everytime.count[shot] = 0;
-                        });
-
                     }
                 });
 
@@ -139,6 +140,10 @@
                 };
 
                 $scope.increment = function(what) {
+                    if (undefined === everytime.count[what]) {
+                        everytime.count[what] = 0;
+                    }
+
                     everytime.count[what]++;
                     $scope.$emit('drinkup', 'drinks', 1);
                 };
@@ -151,6 +156,10 @@
                 };
 
                 $scope.shotInc = function(action) {
+                    if (undefined === everytime.count[action]) {
+                        everytime.count[action] = 0;
+                    }
+
                     everytime.count[action]++;
                     $scope.$emit('drinkup', 'shots', 1);
                 };
