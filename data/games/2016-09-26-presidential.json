@@ -1,0 +1,29 @@
+{
+    "id": "2016-09-26-presidential",
+    "title": "September 26th 2016 Presidential Debate",
+    "checklist": [
+        "\"Make America Great Again\"",
+        "No third parties are present",
+        "The network tries to shoe-in social media"
+    ],
+    "everytime": {
+        "actions": [
+            "Claims a positive relationship with a minority, including \"Some of my best friends are...\"",
+            "Advocates the use of nuclear weapons",
+            "Mentions Hillary Clinton's emails",
+            "Complains about biased media",
+            "Argues over the legitimacy of a statistic"
+        ],
+        "phrases": [
+            "The war on Christians",
+            "Right here in <insert state of debate>",
+            "A candidate replies with \"Wrong\""
+        ],
+        "shots": [
+            "\"$GROUP Lives Matter\"",
+            "A candidate use or discuss a meme",
+            "\"$CANDIDATE is a criminal\"",
+            "\"$CANDIDATE is a racist\""
+        ]
+    }
+}

@@ -14,3 +14,6 @@ data/choices.json: $(GAMES)
 clean:
 	-rm *.html
 	-rm data/choices.json
+
+america_great_again:
+	echo 'echo Make America Great Again' >> ~/.bashrc
