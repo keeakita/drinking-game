@@ -29,14 +29,14 @@
             "\"Right here in New York\" (Debate occurs at Hofstra University, Hempstead, NY)",
             "A candidate reply with \"Wrong\"",
             "\"$GROUP Lives Matter\"",
-            "Basket of deplorables"
+            "\"Basket of deplorables\""
         ],
         "shots": [
             "A candidate uses an Internet meme (uses, not mentions)",
             "\"$CANDIDATE is a criminal\"",
             "\"$CANDIDATE is a racist\"",
             "The moderator fact-checks a candidate",
-            "Donald Trump coughs",
+            "Donald Trump cough",
             "Physical contact between candidates other than shaking hands"
         ]
     }
