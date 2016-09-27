@@ -21,7 +21,8 @@
             "Mentions Trump-branded merchandise",
             "Metions Bernie Sanders supporters as such",
             "Says something in a language other than English",
-            "Mentions an Internet meme (mention, not uses)"
+            "Mentions an Internet meme (mention, not uses)",
+            "Tells the moderator they are 'Wrong'"
         ],
         "phrases": [
             "\"The war on Christians\"",
