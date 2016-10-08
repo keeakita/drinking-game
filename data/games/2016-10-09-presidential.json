@@ -1,0 +1,38 @@
+{
+    "id": "2016-10-09-presidential",
+    "title": "October 9th 2016 Presidential Debate",
+    "checklist": [
+        "\"Make America Great Again\"",
+        "Third parties are present",
+        "The candidates' suits' colors clash"
+    ],
+    "everytime": {
+        "actions": [
+            "The crowd boos",
+            "Hillary shimmies",
+            "Donald apologizes",
+            "Advocates the use of nuclear weapons",
+            "Advocates invading another county",
+            "Complains about biased media",
+            "Mentions Donald Trump's tax returns",
+            "Mentions Hillary Clinton's closed-door speeches",
+            "Fact-checks their opponent, using correct facts",
+            "Argues over the legitimacy of a statistic",
+            "Tic-Tacs are mentioned (Optional: eat a Tic-Tac instead of drinking)"
+        ],
+        "phrases": [
+            "Private server",
+            "Trump Foundation",
+            "\"Right here in tktk place\" (Debate occurs at tktk place)",
+            "A candidate reply with \"Wrong\"",
+            "The moderator fact-checks a candidate",
+            "\"$GROUP Lives Matter\"",
+            "\"Basket of deplorables\""
+        ],
+        "shots": [
+            "\"$CANDIDATE is a rapist\"",
+            "\"pussy\"",
+            "Physical contact between candidates other than shaking hands"
+        ]
+    }
+}
