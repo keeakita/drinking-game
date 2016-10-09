@@ -17,12 +17,13 @@
             "Mentions Donald Trump's tax returns",
             "Mentions Hillary Clinton's closed-door speeches",
             "Fact-checks their opponent, using correct facts",
+            "Question-asker shakes their head",
             "Argues over the legitimacy of a statistic",
             "Tic-Tacs are mentioned (Optional: eat a Tic-Tac instead of drinking)",
             "Audience member asks something inappropriate"
         ],
         "phrases": [
-            "\"Right here in tktk place\" (Debate occurs at tktk place)",
+            "\"Right here in St. Louis\" (Debate occurs at Washington University in St. Louis, Missouri)",
             "A candidate reply with \"Wrong\"",
             "Audience member fact-check a candidate",
             "\"$GROUP Lives Matter\"",
