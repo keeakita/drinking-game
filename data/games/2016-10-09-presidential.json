@@ -20,6 +20,7 @@
             "Fact-checks their opponent, using correct facts",
             "Has a question-asker shake head in response",
             "Argues over the legitimacy of a statistic",
+            "References 'Hamilton'",
             "Mentions Tic-Tacs (Optional: eat a Tic-Tac instead of drinking)",
             "Is asked something inappropriate by an audience member"
         ],
@@ -30,7 +31,7 @@
             "\"$GROUP Lives Matter\"",
             "\"Basket of deplorables\"",
             "\"Trumped-up trickle-down\"",
-            "A euphemism for 'pussy'",
+            "A euphemism for 'pussy'"
         ],
         "shots": [
             "\"$CANDIDATE is a rapist\"",
