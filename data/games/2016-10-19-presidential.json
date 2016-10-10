@@ -16,6 +16,7 @@
             "Advocates the use of nuclear weapons",
             "Advocates invading another county",
             "Mentions Donald Trump's tax returns",
+            "Mentions Hillary Clinton's email server",
             "Mentions Hillary Clinton's closed-door speeches",
             "Fact-checks their opponent, using correct facts",
             "References 'Hamilton'",
@@ -23,12 +24,14 @@
             "Delivers a zinger"
         ],
         "phrases": [
-            "\"Right here in St. Louis\" (Debate occurs at Washington University in St. Louis, Missouri)",
+            "\"Right here in Las Vegas\" (Debate occurs at University of Nevada, in Las Vegas)",
+            "\"inner city\"",
             "A candidate reply with \"Wrong\"",
             "\"$GROUP Lives Matter\"",
             "\"Basket of deplorables\"",
             "\"Trumped-up trickle-down\"",
-            "A euphemism for 'pussy'"
+            "A euphemism for 'pussy'",
+            "\"Alt-right\"",
         ],
         "shots": [
             "\"$CANDIDATE is a rapist\"",
