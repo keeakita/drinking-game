@@ -20,7 +20,7 @@
             "Mentions Hillary Clinton's closed-door speeches",
             "Fact-checks their opponent, using correct facts",
             "References 'Hamilton'",
-            "Makes an audience member visually uncomfortable",
+            "Makes an audience member visibly uncomfortable",
             "Delivers a zinger"
         ],
         "phrases": [
@@ -35,6 +35,7 @@
         ],
         "shots": [
             "\"$CANDIDATE is a rapist\"",
+            "A candidate threatens to jail the other",
             "\"pussy\"",
             "Something is thrown at the stage",
             "Physical contact between candidates other than shaking hands"
