@@ -1,0 +1,22 @@
+{
+    "id": "2016-11-08-election-night",
+    "title": "November 8th, 2016: Election night",
+    "checklist": [
+        "The network tries to push social media",
+        "The candidates' suits' colors clash"
+    ],
+    "everytime": {
+        "actions": [
+            "Complains about biased media",
+            "Argues over the legitimacy of a statistic",
+            "Metions Bernie Sanders supporters as such",
+            "Concedes",
+        ],
+        "phrases": [
+        ],
+        "shots": [
+            "A candidate refuses to concede",
+            "Physical contact between candidates other than shaking hands"
+        ]
+    }
+}
