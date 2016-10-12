@@ -10,12 +10,14 @@
             "Complains about biased media",
             "Argues over the legitimacy of a statistic",
             "Metions Bernie Sanders supporters as such",
+            "Wins a state by more than 10% (multiplier)",
             "Concedes",
         ],
         "phrases": [
         ],
         "shots": [
             "A candidate refuses to concede",
+            "A state is won by a third-party candidate",
             "Physical contact between candidates other than shaking hands"
         ]
     }
