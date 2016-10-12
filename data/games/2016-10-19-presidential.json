@@ -10,14 +10,12 @@
     "everytime": {
         "actions": [
             "Is booed by the crowd",
-            "Hillary shimmies",
-            "Donald apologizes",
-            "Donald talks about his respect for women",
+            "Shimmies",
+            "Apologizes",
             "Advocates the use of nuclear weapons",
             "Advocates invading another county",
-            "Mentions Donald Trump's tax returns",
-            "Mentions Hillary Clinton's email server",
-            "Mentions Hillary Clinton's closed-door speeches",
+            "Mentions Donald Trump's tax returns or foundation",
+            "Mentions Hillary Clinton's email server or closed-door speeches",
             "Fact-checks their opponent, using correct facts",
             "References 'Hamilton'",
             "Makes an audience member visibly uncomfortable",
@@ -32,6 +30,8 @@
             "\"Trumped-up trickle-down\"",
             "A euphemism for 'pussy'",
             "\"Alt-right\"",
+            "Fifty Shades of Grey",
+            "consent",
         ],
         "shots": [
             "\"$CANDIDATE is a rapist\"",
