@@ -12,10 +12,9 @@
             "Is booed by the crowd",
             "Shimmies",
             "Apologizes",
-            "Advocates the use of nuclear weapons",
             "Advocates invading another county",
-            "Mentions Donald Trump's tax returns or foundation",
-            "Mentions Hillary Clinton's email server or closed-door speeches",
+            "Mentions Donald Trump's tax returns or foundation or businesses",
+            "Mentions Hillary Clinton's email server or closed-door speeches or foundation",
             "Fact-checks their opponent, using correct facts",
             "References 'Hamilton'",
             "Makes an audience member visibly uncomfortable",
@@ -38,6 +37,7 @@
             "A candidate threatens to jail the other",
             "\"pussy\"",
             "Something is thrown at the stage",
+            "Advocates the use of nuclear weapons",
             "Physical contact between candidates other than shaking hands"
         ]
     }
