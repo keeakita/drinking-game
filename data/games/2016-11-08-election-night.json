@@ -13,13 +13,15 @@
             "Wins a state by more than 10% (multiplier)",
             "Concedes",
             "Has a state called for them by the AP before the results are in the AP API",
+            "A third-party wins more than 10% of a state",
         ],
         "phrases": [
         ],
         "shots": [
             "A candidate refuses to concede",
             "A state is won by a third-party candidate",
-            "Physical contact between candidates other than shaking hands"
+            "Physical contact between candidates other than shaking hands",
+            "A candidate wins the popular vote by a landslide",
         ]
     }
 }
