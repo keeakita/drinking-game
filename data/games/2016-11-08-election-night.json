@@ -13,6 +13,7 @@
             "Wins a state by more than 20% (multiplier)",
             "Concedes",
             "Has a state called for them by the AP before the results are in the AP API",
+            "Has a state called within 5 minutes of the polls closing",
             "A third-party wins more than 10% of a state",
         ],
         "phrases": [
