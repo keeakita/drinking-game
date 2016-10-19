@@ -12,12 +12,11 @@
             "Is booed by the crowd",
             "Shimmies",
             "Advocates invading another county",
-            "Mentions Donald Trump's tax returns or foundation",
             "Mentions Hillary Clinton's email server or closed-door speeches",
             "Fact-checks their opponent, using correct facts",
-            "Claims the election will be stolen",
+            "Claims the election will be stolen or rigged",
             "Makes an audience member visibly uncomfortable",
-            "Delivers a zinger"
+            "Delivers a zinger",
         ],
         "phrases": [
             "\"Right here in Las Vegas\" (Debate occurs at University of Nevada, in Las Vegas)",
@@ -26,8 +25,7 @@
             "\"$GROUP Lives Matter\"",
             "A euphemism for 'pussy'",
             "\"Alt-right\"",
-            "Fifty Shades of Grey",
-            "consent",
+            "Wikileaks"
         ],
         "shots": [
             "\"$CANDIDATE is a rapist\"",
