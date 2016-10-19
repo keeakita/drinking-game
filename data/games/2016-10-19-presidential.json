@@ -1,0 +1,40 @@
+{
+    "id": "2016-10-19-presidential",
+    "title": "October 19th 2016 Presidential Debate",
+    "checklist": [
+        "\"Love Trumps Hate\"",
+        "\"Make America Great Again\"",
+        "Third parties are present",
+        "The candidates' suits' colors clash"
+    ],
+    "everytime": {
+        "actions": [
+            "Is booed by the crowd",
+            "Shimmies",
+            "Advocates invading another county",
+            "Mentions Hillary Clinton's email server or closed-door speeches",
+            "Fact-checks their opponent, using correct facts",
+            "Claims the election will be stolen or rigged",
+            "Makes an audience member visibly uncomfortable",
+            "Delivers a zinger",
+        ],
+        "phrases": [
+            "\"Right here in Las Vegas\" (Debate occurs at University of Nevada, in Las Vegas)",
+            "\"inner city\"",
+            "A candidate reply with \"Wrong\"",
+            "\"$GROUP Lives Matter\"",
+            "A euphemism for 'p---y'",
+            "\"Alt-right\"",
+            "\"Wikileaks\"",
+            "\"Benghazi\""
+        ],
+        "shots": [
+            "\"$CANDIDATE is a rapist\"",
+            "A candidate threatens to jail the other",
+            "The actual word \"p---y\", a word that would get an FCC fine, or a censorship beeeep",
+            "Something is thrown at the stage",
+            "Advocates the use of nuclear weapons",
+            "Physical contact between candidates other than shaking hands"
+        ]
+    }
+}
