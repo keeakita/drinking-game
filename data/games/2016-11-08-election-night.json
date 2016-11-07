@@ -2,8 +2,8 @@
     "id": "2016-11-08-election-night",
     "title": "November 8th, 2016: Election night",
     "checklist": [
-        "The network tries to push social media",
-        "The candidates' suits' colors clash"
+        "The network you're listening to tries to push social media",
+        "Donald Trump's tax returns leak",
     ],
     "everytime": {
         "actions": [
@@ -17,7 +17,10 @@
             "A third-party wins more than 10% of a state",
         ],
         "phrases": [
-            "riots in a major city after results announced",
+            "Riots in a major city after results announced",
+            "\"Nasty woman\"",
+            "\"Drain the Swamp\"",
+            "\"Trumped-up Trickle-down\"",
         ],
         "shots": [
             "A candidate refuses to concede",
