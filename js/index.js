@@ -39,6 +39,7 @@
             controllerAs: 'checklist',
             controller: ['$scope', function($scope) {
                 var checklist = this;
+                checklist.caption = "Drink the first time...";
 
                 // Initial values
                 checklist.list = [];
@@ -46,8 +47,15 @@
                 $scope.$watch('gameData', function() {
                     if ($scope.gameData !== undefined) {
                         // Reset values
+                        var data = $scope.gameData;
                         checklist.checked = {};
-                        checklist.list = $scope.gameData.checklist;
+                        checklist.list = data.checklist;
+
+                        if (undefined === data.captions || undefined === data.captions.checklist) {
+                            checklist.caption = "Drink the first time...";
+                        } else {
+                            checklist.caption = data.captions.checklist;
+                        }
                     }
                 });
 
@@ -112,10 +120,10 @@
             controller: ['$scope', function($scope) {
                 var everytime = this;
 
-                // Initial values
-                everytime.actions = [];
-                everytime.phrases = [];
-                everytime.shots   = [];
+                // Initial values. Note that drinks is an array of arrays.
+                everytime.drinkCaptions = [[]];
+                everytime.drinks = [[]];
+                everytime.shots  = [];
 
                 $scope.$watch('gameData', function() {
                     // When a new game is selected
@@ -124,9 +132,9 @@
                         everytime.count = {};
 
                         // Set up new elements
-                        everytime.actions = $scope.gameData.everytime.actions;
-                        everytime.phrases = $scope.gameData.everytime.phrases;
-                        everytime.shots = $scope.gameData.everytime.shots;
+                        everytime.drinks = $scope.gameData.drinks;
+                        everytime.shots = $scope.gameData.shots;
+                        everytime.drinkCaptions = $scope.gameData.captions.drinks;
                     }
                 });
 

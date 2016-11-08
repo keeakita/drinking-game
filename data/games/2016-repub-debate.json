@@ -14,15 +14,22 @@
         "Anyone proposes invading Syria",
         "Rand Paul disagrees"
     ],
-    "everytime": {
-        "actions": [
+    "captions": {
+        "drinks": [
+            "Drink everytime a candidate...",
+            "Drink everytime you hear..."
+        ],
+        "shots": "Shots when you hear..."
+    },
+    "drinks": [
+        [
             "Claims a positive relationship with a minority, including \"Some of my best friends are...\"",
             "Tries to habla Español",
             "Invokes St. Ronald Reagan.",
             "Advocates the use of nuclear weapons",
             "Says something racist or bigoted, and the crowd cheers"
         ],
-        "phrases": [
+        [
             "I'm not a scientist",
             "Repealing Obamacare",
             "The war on Christians (or Christmas, if that\"s your fancy)",
@@ -30,13 +37,13 @@
             "A candidate replies with \"Wrong\"",
             "Culture of dependency",
             "\"Gateway drug\""
-        ],
-        "shots": [
-            "Kenya",
-            "All Lives Matter",
-            "Binders full of women",
-            "\"Obama doesn't have\" followed by anything",
-            "Hillary Clinton's emails"
         ]
-    }
+    ],
+    "shots": [
+        "Kenya",
+        "All Lives Matter",
+        "Binders full of women",
+        "\"Obama doesn't have\" followed by anything",
+        "Hillary Clinton's emails"
+    ]
 }

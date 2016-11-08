@@ -8,8 +8,15 @@
         "\"Love trumps hate\"",
         "The candidates' suits' colors clash"
     ],
-    "everytime": {
-        "actions": [
+    "captions": {
+        "drinks": [
+            "Drink everytime a candidate...",
+            "Drink everytime you hear..."
+        ],
+        "shots": "Shots when you hear..."
+    },
+    "drinks": [
+        [
             "Advocates the use of nuclear weapons",
             "Advocates invading another county",
             "Complains about biased media",
@@ -24,20 +31,20 @@
             "Mentions an Internet meme (mention, not uses)",
             "Tells the moderator they are 'Wrong'"
         ],
-        "phrases": [
+        [
             "\"The war on Christians\"",
             "\"Right here in New York\" (Debate occurs at Hofstra University, Hempstead, NY)",
             "A candidate reply with \"Wrong\"",
             "\"$GROUP Lives Matter\"",
             "\"Basket of deplorables\""
-        ],
-        "shots": [
-            "A candidate use an Internet meme (uses, not mentions)",
-            "\"$CANDIDATE is a criminal\"",
-            "\"$CANDIDATE is a racist\"",
-            "The moderator fact-check a candidate",
-            "Donald Trump cough",
-            "Physical contact between candidates other than shaking hands"
         ]
-    }
+    ],
+    "shots": [
+        "A candidate use an Internet meme (uses, not mentions)",
+        "\"$CANDIDATE is a criminal\"",
+        "\"$CANDIDATE is a racist\"",
+        "The moderator fact-check a candidate",
+        "Donald Trump cough",
+        "Physical contact between candidates other than shaking hands"
+    ]
 }

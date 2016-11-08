@@ -1,16 +1,10 @@
-%h2 Drink everytime a candidate...
-.action(ng-repeat="action in everytime.actions")
-  %button.btn.btn-danger(ng-click="decrement(action)") -
-  {{ everytime.count[action] || 0}}
-  %button.btn.btn-success(ng-click="increment(action)") +
-  {{ action }}
-
-%h2 Drink everytime you hear...
-.phrase(ng-repeat="phrase in everytime.phrases")
-  %button.btn.btn-danger(ng-click="decrement(phrase)") -
-  {{ everytime.count[phrase] || 0}}
-  %button.btn.btn-success(ng-click="increment(phrase)") +
-  {{ phrase }}
+%div(ng-repeat="category in everytime.drinks")
+  %h2 {{ everytime.drinkCaptions[$index] }}
+  .phrase(ng-repeat="phrase in everytime.drinks[$index]")
+    %button.btn.btn-danger(ng-click="decrement(phrase)") -
+    {{ everytime.count[phrase] || 0}}
+    %button.btn.btn-success(ng-click="increment(phrase)") +
+    {{ phrase }}
 
 %h2 Shots when you hear...
 .shot(ng-repeat="shot in everytime.shots")

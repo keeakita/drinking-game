@@ -7,8 +7,15 @@
         "Third parties are present",
         "The candidates' suits' colors clash"
     ],
-    "everytime": {
-        "actions": [
+    "captions": {
+        "drinks": [
+            "Drink everytime a candidate...",
+            "Drink everytime you hear..."
+        ],
+        "shots": "Shots when you hear..."
+    },
+    "drinks": [
+        [
             "Is booed by the crowd",
             "Hillary shimmies",
             "Donald apologizes",
@@ -26,7 +33,7 @@
             "Makes an audience member visually uncomfortable",
             "Delivers a zinger"
         ],
-        "phrases": [
+        [
             "\"Right here in St. Louis\" (Debate occurs at Washington University in St. Louis, Missouri)",
             "A candidate reply with \"Wrong\"",
             "An audience member fact-check a candidate",
@@ -34,12 +41,12 @@
             "\"Basket of deplorables\"",
             "\"Trumped-up trickle-down\"",
             "A euphemism for 'pussy'"
-        ],
-        "shots": [
-            "\"$CANDIDATE is a rapist\"",
-            "\"pussy\"",
-            "Something is thrown at the stage",
-            "Physical contact between candidates other than shaking hands"
         ]
-    }
+    ],
+    "shots": [
+        "\"$CANDIDATE is a rapist\"",
+        "\"pussy\"",
+        "Something is thrown at the stage",
+        "Physical contact between candidates other than shaking hands"
+    ]
 }
