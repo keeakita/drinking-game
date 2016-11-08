@@ -1,0 +1,42 @@
+{
+    "id": "2016-11-08-election-night",
+    "title": "November 8th, 2016: Election night",
+    "checklist": [
+        "The network you're listening to tries to push social media",
+        "Donald Trump's tax returns leak"
+    ],
+    "captions": {
+        "drinks": [
+            "Drink everytime a candidate...",
+            "Drink everytime you hear...",
+            "Drink everytime it happens..."
+        ],
+        "shots": "Shots when..."
+    },
+    "drinks": [
+        [
+            "Complains about biased media",
+            "Argues over the legitimacy of a statistic",
+            "Metions Bernie Sanders supporters as such",
+            "Wins a state by more than 20% (multiplier)",
+            "Concedes",
+            "Has a state called for them by the AP before the results are in the AP API",
+            "Has a state called within 5 minutes of the polls closing"
+        ],
+        [
+            "\"Nasty woman\"",
+            "\"Drain the Swamp\"",
+            "\"Trumped-up Trickle-down\""
+        ],
+        [
+            "A third-party wins more than 10% of a state",
+            "Riots in a major city after results announced"
+        ]
+    ],
+    "shots": [
+        "A candidate refuses to concede",
+        "A state is won by a third-party candidate",
+        "Physical contact between candidates other than shaking hands",
+        "A candidate wins the popular vote by a landslide"
+    ]
+}
