@@ -14,4 +14,4 @@ bundle exec make
 rsync -a --delete css js data *.html _site/
 
 # Copy to prod
-rsync -rlptODv --chmod o=rx --delete _site/ web.oslers.us:/var/www-poop
+rsync -rlpODv --chmod o=rx --delete _site/ web.oslers.us:/var/www-poop
